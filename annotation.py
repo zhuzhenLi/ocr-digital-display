@@ -20,7 +20,7 @@ sample = 128
 
 def _main():
     
-    for i in range (9): 
+    for i in range (10):
     
         src = '00'+ str(i) +'000.xml'
     
@@ -57,7 +57,8 @@ def clear(dir):
 
 if __name__ == '__main__':
     xml_dir = '/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/Annotations'
+    clear(xml_dir)
     os.chdir(xml_dir)
     _main()
 
-    #clear(xml_dir)
+
