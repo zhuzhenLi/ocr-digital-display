@@ -1,0 +1,26 @@
+<annotation>
+	<folder>JPEGImages</folder>
+	<filename>008054.jpg</filename>
+	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/008054.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>eight</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>18</xmin>
+			<ymin>19</ymin>
+			<xmax>286</xmax>
+			<ymax>390</ymax>
+		</bndbox>
+	</object>
+</annotation>
