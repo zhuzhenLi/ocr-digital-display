@@ -78,3 +78,4 @@ if __name__ == '__main__':
     xml_dir = './VOC2007/Annotations'
     os.chdir(xml_dir)
     _main()
+
