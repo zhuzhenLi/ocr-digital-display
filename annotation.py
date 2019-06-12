@@ -1,13 +1,10 @@
-# imports
-import cv2 as cv
-import numpy as np
-import imageio
-import imgaug as ia
-from imgaug import augmenters as iaa
-from imgaug import parameters as iap
-from matplotlib.pyplot import *
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+' make annotation files '
+
+__author__ = 'Zhuzhen Li'
+
 import random
 import os, shutil
 from shutil import copyfile
@@ -40,25 +37,44 @@ def _main():
             
             
             file_path = root.find("path")
-            file_path.text='/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/00'+ str(i) + index +'.jpg'
+            file_path.text='./VOC2007/JPEGImages/00'+ str(i) + index +'.jpg'
             
             for width in root.iter('width'):
                 width.text = str(300)
             
             for height in root.iter("height"):
                 height.text = str(400)
-            
         tree.write(des)
 
 
-def clear(dir):
-    filesToRemove = [os.path.join(dir, file) for file in os.listdir(dir)]
-    for file in filesToRemove :
-        os.remove(file)
+def create_dir():
+    os.chdir('./VOC2007')
+    os.getcwd()
+    # Create directory
+    dirName = 'Annotations'
+    
+    try:
+        # Create target Directory
+        os.mkdir(dirName)
+        print("Directory" , dirName ,  " Successfully Created ")
+    
+    except FileExistsError:
+        filesToRemove = [os.path.join(dirName, f) for f in os.listdir(dirName)]
+        for f in filesToRemove :
+            os.remove(f)
+        print("Directory" , dirName ,  "already exists, empty the existing directory.")
+
 
 
 if __name__ == '__main__':
-    xml_dir = '/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/Annotations'
-    # clear(xml_dir)
+    create_dir()
+    os.chdir("./../")
+    
+    digit_dir = './origin_xml'
+    des_dir = './VOC2007/Annotations'
+    copy_tree(digit_dir, des_dir)
+    print(" Successully copy the original xmls to", des_dir)
+    
+    xml_dir = './VOC2007/Annotations'
     os.chdir(xml_dir)
     _main()

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>007128.jpg</filename>
-	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/007128.jpg</path>
+	<path>./VOC2007/JPEGImages/007128.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>

@@ -1,13 +1,13 @@
 <annotation>
 	<folder>JPEGImages</folder>
-	<filename>007008.jpg</filename>
-	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/007008.jpg</path>
+	<filename>007000.jpg</filename>
+	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/007000.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>300</width>
-		<height>400</height>
+		<width>0</width>
+		<height>0</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
