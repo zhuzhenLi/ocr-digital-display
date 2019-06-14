@@ -1,13 +1,13 @@
 <annotation>
 	<folder>JPEGImages</folder>
-	<filename>009000.jpg</filename>
-	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/009000.jpg</path>
+	<filename>009013.jpg</filename>
+	<path>./VOC2007/JPEGImages/009013.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
 	<size>
-		<width>0</width>
-		<height>0</height>
+		<width>300</width>
+		<height>400</height>
 		<depth>3</depth>
 	</size>
 	<segmented>0</segmented>
@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>18</xmin>
+			<xmin>15</xmin>
 			<ymin>25</ymin>
-			<xmax>284</xmax>
+			<xmax>285</xmax>
 			<ymax>395</ymax>
 		</bndbox>
 	</object>
