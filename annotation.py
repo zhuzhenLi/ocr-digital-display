@@ -11,9 +11,18 @@ from shutil import copyfile
 from distutils.dir_util import copy_tree
 import xml.etree.ElementTree as ET
 import pdb
+import sys
+import argparse
 
-sample = 128
-def _main():
+def parse_args():
+    parser = argparse.ArgumentParser(description='VOC2007 dataset xml annotation')
+    parser.add_argument('--sample',dest='sample', type=int, default=128,
+                        help='Number of xml annotations by each original xml')
+    args = parser.parse_args()
+    return args
+
+
+def _main(sample):
     for i in range (10):
         src = '00'+ str(i) +'000.xml'
         for j in range (sample):
@@ -44,7 +53,10 @@ def _main():
             
             for height in root.iter("height"):
                 height.text = str(400)
-        tree.write(des)
+                
+            tree.write(des)
+            if(j+1 == sample):  
+              print("Successfully generate", sample, "xmls for original xml", src)
 
 
 def create_dir():
@@ -56,7 +68,7 @@ def create_dir():
     try:
         # Create target Directory
         os.mkdir(dirName)
-        print("Directory" , dirName ,  " Successfully Created ")
+        print("Directory" , dirName ,  "Successfully Created ")
     
     except FileExistsError:
         filesToRemove = [os.path.join(dirName, f) for f in os.listdir(dirName)]
@@ -67,15 +79,22 @@ def create_dir():
 
 
 if __name__ == '__main__':
+    args = parse_args()
+    sample = args.sample
+    
     create_dir()
     os.chdir("./../")
     
     digit_dir = './origin_xml'
     des_dir = './VOC2007/Annotations'
     copy_tree(digit_dir, des_dir)
-    print(" Successully copy the original xmls to", des_dir)
+    print("Successfully copy the original xmls to", des_dir)
     
     xml_dir = './VOC2007/Annotations'
     os.chdir(xml_dir)
-    _main()
+    _main(sample)
+    
+    # check if successful generate:
+    number_of_files = len([item for item in os.listdir("./") if os.path.isfile(os.path.join("./",item))])
+    print (number_of_files, "files in", des_dir)
 
