@@ -1,6 +1,10 @@
 import os
 import random as rnd
 import math
+import cv2
+import numpy as np
+
+from skimage.util import random_noise
 
 from PIL import Image, ImageFilter, ImageColor, ImageFont, ImageDraw
 
@@ -149,7 +153,7 @@ class FakeTextDataGenerator(object):
             
                 # the rotated bounding box for each digit is (rx0,ry0,rx1,ry1)
                 txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
-                print("the rotated bounding box for each digit is ", rx0,ry0,rx1,ry1)
+                # print("the rotated bounding box for each digit is ", rx0,ry0,rx1,ry1)
 
                 file = open("bb_result.txt","a+")
                 file.write("rotated bb coordinates : x_min: "+ str(rx0) +" y_min: "+str(ry0)+" x_max: "+ str(rx1)+" y_max: "+str(ry1))
@@ -158,6 +162,8 @@ class FakeTextDataGenerator(object):
         else:
             background.paste(resized_img, (background_width - new_text_width - margin_right, margin_top), resized_img)
 
+                
+        
         ##################################
         # Apply gaussian blur #
         ##################################
@@ -167,6 +173,8 @@ class FakeTextDataGenerator(object):
                 radius=(blur if not random_blur else rnd.randint(0, blur))
             )
         )
+        
+        
 
         #####################################
         # Generate name for resulting image #
@@ -183,3 +191,6 @@ class FakeTextDataGenerator(object):
 
         # Save the image
         final_image.convert('RGB').save(os.path.join(out_dir, image_name))
+
+
+

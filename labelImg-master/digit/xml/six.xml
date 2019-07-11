@@ -1,0 +1,26 @@
+<annotation>
+	<folder>digit</folder>
+	<filename>6.png</filename>
+	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/digit/6.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>six</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>48</xmin>
+			<ymin>27</ymin>
+			<xmax>267</xmax>
+			<ymax>385</ymax>
+		</bndbox>
+	</object>
+</annotation>
