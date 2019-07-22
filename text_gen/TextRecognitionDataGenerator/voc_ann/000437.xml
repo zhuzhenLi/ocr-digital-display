@@ -1,0 +1,28 @@
+<annotation>
+  <filename>000437.png</filename>
+  <size>
+    <width>79</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>6</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.710423335003924</xmin>
+      <ymin>20.389482634892552</ymin>
+      <xmax>41.33829565979959</xmax>
+      <ymax>45.00564683998995</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>7</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>37.66414028994058</xmin>
+      <ymin>19.06410963375417</ymin>
+      <xmax>60.29201261473625</xmax>
+      <ymax>43.68027383885157</ymax>
+    </bndbox>
+  </object>
+</annotation>

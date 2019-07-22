@@ -30,8 +30,12 @@ class FakeTextDataGenerator(object):
     @classmethod
     def generate(cls, index, text, font, out_dir, size, extension, skewing_angle, random_skew, blur, random_blur, background_type, distorsion_type, distorsion_orientation, is_handwritten, name_format, width, alignment, text_color, orientation, space_width, margins, fit):
     
+        num_zero = 6 - len(str(index))
+        image_name = '{}.{}'.format('0'*num_zero+str(index),extension)
+    
+    
         file = open("bb_result.txt","a+")
-        file.write(" \n \n Content: " + text + "\n")
+        file.write("\n"+image_name.split(".")[0] + " " +text.replace(" ", ""))
         file.close
         
         
@@ -156,7 +160,8 @@ class FakeTextDataGenerator(object):
                 # print("the rotated bounding box for each digit is ", rx0,ry0,rx1,ry1)
 
                 file = open("bb_result.txt","a+")
-                file.write("rotated bb coordinates : x_min: "+ str(rx0) +" y_min: "+str(ry0)+" x_max: "+ str(rx1)+" y_max: "+str(ry1))
+#                file.write("\nbbox coordinates : x_min: "+ str(rx0) +" y_min: "+str(ry0)+" x_max: "+ str(rx1)+" y_max: "+str(ry1))
+                file.write(" "+ str(rx0)+" " + str(ry0)+" " +str(rx1)+" "+str(ry1))
                 file.close
         
         else:
@@ -175,22 +180,18 @@ class FakeTextDataGenerator(object):
         )
         
         
+       
 
-        #####################################
-        # Generate name for resulting image #
-        #####################################
-        if name_format == 0:
-            image_name = '{}_{}.{}'.format(text, str(index), extension)
-        elif name_format == 1:
-            image_name = '{}_{}.{}'.format(str(index), text, extension)
-        elif name_format == 2:
-            image_name = '{}.{}'.format(str(index),extension)
-        else:
-            print('{} is not a valid name format. Using default.'.format(name_format))
-            image_name = '{}_{}.{}'.format(text, str(index), extension)
 
         # Save the image
         final_image.convert('RGB').save(os.path.join(out_dir, image_name))
+        final_img_copy =np.array(final_image.convert('RGB'))
+
+        
+        file = open("bb_result.txt","a+")
+        file.write(" "+str(final_img_copy.shape[1])+" "+str(final_img_copy.shape[0]))
+        file.close
+
 
 
 

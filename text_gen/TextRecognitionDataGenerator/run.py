@@ -1,5 +1,5 @@
 import argparse
-import os, errno
+import os, errno, glob
 import random as rnd
 import string
 import sys
@@ -302,6 +302,11 @@ def main():
         if e.errno != errno.EEXIST:
             raise
 
+    old_files = glob.glob(args.output_dir+'*')
+    for f in old_files:
+        os.remove(f)
+
+
     # Creating word list
     lang_dict = load_dict(args.language)
 
@@ -334,8 +339,13 @@ def main():
     string_count = len(strings)
     print("\n string count is", string_count)
 
+    exist = os.path.isfile('./bb_result.txt')
+    if exist :
+        print("delete old bb_result.txt")
+        os.remove('./bb_result.txt')
+
+
     file = open("bb_result.txt","w+")
-    
     file.close
 
 

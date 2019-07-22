@@ -1,0 +1,28 @@
+<annotation>
+  <filename>000212.png</filename>
+  <size>
+    <width>81</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>0</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.93128200653855</xmin>
+      <ymin>18.29187039336958</ymin>
+      <xmax>41.08151062606044</xmax>
+      <ymax>44.9752401758779</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>9</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>39.919098546920466</xmin>
+      <ymin>18.9898603274196</ymin>
+      <xmax>61.069327166442356</xmax>
+      <ymax>45.673230109927914</ymax>
+    </bndbox>
+  </object>
+</annotation>

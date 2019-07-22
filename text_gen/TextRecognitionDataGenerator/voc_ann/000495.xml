@@ -1,0 +1,88 @@
+<annotation>
+  <filename>000495.png</filename>
+  <size>
+    <width>188</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>1</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.963872761016916</xmin>
+      <ymin>16.42474731978578</ymin>
+      <xmax>39.11531972650063</xmax>
+      <ymax>43.038318108889094</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>2</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>37.95290764736065</xmin>
+      <ymin>17.052938260430796</ymin>
+      <xmax>57.104354612844354</xmax>
+      <ymax>43.66650904953411</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>2</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>55.94194253370437</xmin>
+      <ymin>17.681129201075812</ymin>
+      <xmax>75.09338949918808</xmax>
+      <ymax>44.294699990179126</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>1</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>73.9309774200481</xmin>
+      <ymin>18.309320141720832</ymin>
+      <xmax>93.0824243855318</xmax>
+      <ymax>44.922890930824146</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>3</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>91.92001230639183</xmin>
+      <ymin>18.93751108236585</ymin>
+      <xmax>111.07145927187553</xmax>
+      <ymax>45.551081871469165</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>4</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>109.90904719273554</xmin>
+      <ymin>19.565702023010864</ymin>
+      <xmax>129.06049415821926</xmax>
+      <ymax>46.17927281211418</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>1</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>127.89808207907927</xmin>
+      <ymin>20.193892963655884</ymin>
+      <xmax>147.04952904456297</xmax>
+      <ymax>46.8074637527592</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>1</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>145.887116965423</xmin>
+      <ymin>20.822083904300904</ymin>
+      <xmax>165.0385639309067</xmax>
+      <ymax>47.43565469340422</ymax>
+    </bndbox>
+  </object>
+</annotation>
