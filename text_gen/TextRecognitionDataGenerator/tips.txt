@@ -1,0 +1,4 @@
+﻿1. 运行run.py
+2. 确保当前目录下有voc_ann文件夹并且包含tmp.xml文件
+3. python gen_voc_ann.py
+4. 删除voc_ann中的tmp.xml
