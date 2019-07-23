@@ -7,6 +7,8 @@ import cv2
 import copy
 import os
 
+number_name = {"0":"zero","1":"one", "2":"two","3":"three", "4":"four","5":"five", "6":"six","7":"seven", "8":"eight","9":"nine"  }
+
 def _main():
     template = 'tmp.xml'
     root = ''
@@ -37,7 +39,7 @@ def _main():
         x_root = tree.getroot()
 
         x_file_name = x_root.find("filename")
-        x_file_name.text = each_list[0]+".png"
+        x_file_name.text = each_list[0]+".jpg"
 
         x_size = x_root.find('size')
         x_width = x_size.find('width')
@@ -49,7 +51,8 @@ def _main():
         
         obj0 = x_root.find('object')
         lb_name = obj0.find('name')
-        lb_name.text = str(each_list[1][0])
+
+        lb_name.text =number_name[str(each_list[1][0])]
         bndbox = obj0.find('bndbox')
         for i in range(4):
             bndbox[i].text = str(each_list[i+2])
@@ -58,7 +61,7 @@ def _main():
             dup_obj = copy.deepcopy(obj0)
             x_root.append(dup_obj)
             lb_name = dup_obj.find('name')
-            lb_name.text = str(each_list[1][bi])
+            lb_name.text =number_name[str(each_list[1][bi])]
             bndbox = dup_obj.find('bndbox')
             for j in range(4):
                 bndbox[j].text = str(each_list[bi*4+2+j])
@@ -85,3 +88,6 @@ if __name__ == '__main__':
         newPath = shutil.copy('tmp.xml', './voc_ann')
         print("tmp.xml file is not in voc_ann, move it in, path is", newPath) 
     _main()
+    tmp = './voc_ann/tmp.xml'
+    os.remove(tmp)
+
