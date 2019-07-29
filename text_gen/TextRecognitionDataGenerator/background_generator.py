@@ -83,7 +83,7 @@ def picture(height, width):
         pic = Image.open('./background/' + pictures[rnd.randint(0, len(pictures) - 1)])
         
        
-        list = [0, 1]
+        list = [0, 0]
         boolean1= random.choice(list)
         boolean2= random.choice(list)
         if(boolean1):

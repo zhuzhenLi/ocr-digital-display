@@ -138,25 +138,34 @@ class FakeTextDataGenerator(object):
 #            print("text is : ", text)
             angle = math.radians(random_angle)
 #            print("random_angle is ", random_angle)
-            digit_width = int(((x1-x0)/number)*(1+0.005*(number)))
+#digit_width = int(((x1-x0)/number)*(1+0.005*(number)))
+            digit_width = int(((x1-x0)/number)*(1+0.01*(number)))
         
             
             for i in range(number):
-                x00 = x0 + i * digit_width
+                x00 = x0 + i * digit_width + 1*(i - 0.5*number)
                 x11 = x0 + (i+1) * (digit_width)
                 txt_draw = ImageDraw.Draw(background)
     
                 x_center = 0.5 * background.size[0]
                 y_center = 0.5 * background.size[1]
-            
-                rx0 = (x00-x_center)*math.cos(angle) + (y0-y_center)*math.sin(angle) + x_center
+                
+                # test
+                rx0 = x00
                 ry0 = (y0-y_center)*math.cos(angle) - (x00-x_center)*math.sin(angle) + y_center
                 
-                rx1 = (x11-x_center)*math.cos(angle) + (y1-y_center)*math.sin(angle) + x_center 
+                rx1 = x11
                 ry1 = (y1-y_center)*math.cos(angle) - (x11-x_center)*math.sin(angle) + y_center
+
             
+#                rx0 = (x00-x_center)*math.cos(angle) + (y0-y_center)*math.sin(angle) + x_center
+#                ry0 = (y0-y_center)*math.cos(angle) - (x00-x_center)*math.sin(angle) + y_center
+#
+#                rx1 = (x11-x_center)*math.cos(angle) + (y1-y_center)*math.sin(angle) + x_center
+#                ry1 = (y1-y_center)*math.cos(angle) - (x11-x_center)*math.sin(angle) + y_center
+
                 # the rotated bounding box for each digit is (rx0,ry0,rx1,ry1)
-                txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
+############################### txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
                 # print("the rotated bounding box for each digit is ", rx0,ry0,rx1,ry1)
 
                 file = open("bb_result.txt","a+")
@@ -172,7 +181,7 @@ class FakeTextDataGenerator(object):
         ##################################
         # Apply gaussian blur #
         ##################################
-
+        
         final_image = background.filter(
             ImageFilter.GaussianBlur(
                 radius=(blur if not random_blur else rnd.randint(0, blur))
