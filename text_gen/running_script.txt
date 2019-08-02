@@ -1,2 +1,2 @@
-python run.py -f 64 -l num -c 1000 --length 8 -k 5 -wd -5 -tc '#000000','#999999' -m 20,20,20,20 -bl 1
+python run.py -f 64 -l num -c 1000 --length 8 -k 5 -wd -5 -tc '#000000','#999999' -m 20,20,20,20 -bl 1 -sw 0.8
 
