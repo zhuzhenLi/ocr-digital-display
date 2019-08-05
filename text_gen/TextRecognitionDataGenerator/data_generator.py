@@ -41,6 +41,10 @@ class FakeTextDataGenerator(object):
         
         image = None
 
+        size_percentage = rnd.randrange(75,125,5)
+        size = int(size *  (size_percentage/100))
+
+        
         margin_top, margin_left, margin_bottom, margin_right = margins
         horizontal_margin = margin_left + margin_right
         vertical_margin = margin_top + margin_bottom
@@ -139,12 +143,12 @@ class FakeTextDataGenerator(object):
             angle = math.radians(random_angle)
 #            print("random_angle is ", random_angle)
 #digit_width = int(((x1-x0)/number)*(1+0.005*(number)))
-            digit_width = int(((x1-x0)/number)*(1+0.01*(number)))
+            digit_width = int((1+angle/90)*(new_text_width/number))
         
             
             for i in range(number):
-                x00 = x0 + i * digit_width + 1*(i - 0.5*number)
-                x11 = x0 + (i+1) * (digit_width)
+                x00 = x0 + i * digit_width+ 0.7*(1.5*i-number/2)
+                x11 = x0 + (i+1) * (digit_width)+ 0.7*(1.5*i-number/2)
                 txt_draw = ImageDraw.Draw(background)
     
                 x_center = 0.5 * background.size[0]
@@ -165,7 +169,7 @@ class FakeTextDataGenerator(object):
 #                ry1 = (y1-y_center)*math.cos(angle) - (x11-x_center)*math.sin(angle) + y_center
 
                 # the rotated bounding box for each digit is (rx0,ry0,rx1,ry1)
-############################### txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
+                txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
                 # print("the rotated bounding box for each digit is ", rx0,ry0,rx1,ry1)
 
                 file = open("bb_result.txt","a+")
