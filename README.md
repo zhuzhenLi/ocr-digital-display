@@ -1,5 +1,7 @@
 This deep learning OCR project is aiming to recognize digital display contents which includes seven segment and bitmpap. 
 
+Please note that training is conducing under gluon-cv/docs/tutorials/detection/ from official gluon-cv repo: 
+https://github.com/dmlc/gluon-cv
 
 STEP1: Dataset preparation: 
     
