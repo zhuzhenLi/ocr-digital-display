@@ -1,0 +1,58 @@
+<annotation>
+  <filename>007519.jpg</filename>
+  <size>
+    <width>189</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.25</xmin>
+      <ymin>20.0</ymin>
+      <xmax>47.25</xmax>
+      <ymax>50.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>48.3</xmin>
+      <ymin>20.0</ymin>
+      <xmax>77.3</xmax>
+      <ymax>50.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>78.35</xmin>
+      <ymin>20.0</ymin>
+      <xmax>107.35</xmax>
+      <ymax>50.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>108.4</xmin>
+      <ymin>20.0</ymin>
+      <xmax>137.4</xmax>
+      <ymax>50.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>138.45</xmin>
+      <ymin>20.0</ymin>
+      <xmax>167.45</xmax>
+      <ymax>50.0</ymax>
+    </bndbox>
+  </object>
+</annotation>

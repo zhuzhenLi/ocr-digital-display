@@ -1,0 +1,38 @@
+<annotation>
+  <filename>002135.jpg</filename>
+  <size>
+    <width>78</width>
+    <height>57</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>19.65137384210314</ymin>
+      <xmax>30.95</xmax>
+      <ymax>36.85821353700919</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>32.0</xmin>
+      <ymin>19.87912774610969</ymin>
+      <xmax>44.0</xmax>
+      <ymax>37.08596744101574</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>45.05</xmin>
+      <ymin>20.10688165011624</ymin>
+      <xmax>57.05</xmax>
+      <ymax>37.313721345022294</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,7 +1,7 @@
 <annotation>
 	<folder>JPEGImages</folder>
 	<filename>002030.jpg</filename>
-	<path>./VOC2007/JPEGImages/002030.jpg</path>
+	<path>/Users/missbamboo/Desktop/intel/ocr/ocr-digital-display/VOC2007/JPEGImages/002030.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,9 +17,9 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>20</xmin>
-			<ymin>10</ymin>
-			<xmax>290</xmax>
+			<xmin>21</xmin>
+			<ymin>11</ymin>
+			<xmax>287</xmax>
 			<ymax>395</ymax>
 		</bndbox>
 	</object>

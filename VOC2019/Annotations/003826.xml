@@ -1,0 +1,28 @@
+<annotation>
+  <filename>003826.jpg</filename>
+  <size>
+    <width>94</width>
+    <height>73</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.3</xmin>
+      <ymin>19.51908137160679</ymin>
+      <xmax>45.3</xmax>
+      <ymax>52.96781787913707</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>46.35</xmin>
+      <ymin>19.99116896573531</ymin>
+      <xmax>72.35</xmax>
+      <ymax>53.4399054732656</ymax>
+    </bndbox>
+  </object>
+</annotation>

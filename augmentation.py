@@ -21,15 +21,6 @@ from distutils.dir_util import copy_tree
 import xml.etree.ElementTree as ET
 import pdb
 import shutil
-import sys
-import argparse
-
-def parse_args():
-    parser = argparse.ArgumentParser(description='VOC2007 dataset image augmentation')
-    parser.add_argument('--sample',dest='sample', type=int, default=128,
-                        help='Number of images augmentated by each original image')
-    args = parser.parse_args()
-    return args
 
 # global variables setting
 input_height=128
@@ -63,14 +54,14 @@ contrast_normal_scale = (0, 1)
 spnoise= (0.3, 300)
 affine_translate_x=(-0.05, 0.05)
 affine_translate_y=(-0.05, 0.05)
-affine_rotate=(-15, 15)
-affine_shear = (-1, 1)
-piecewise_affine_scale= (0.01, 0.01)
+affine_rotate=(-30, 30)
+affine_shear = (-2, 2)
+piecewise_affine_scale= (0.01, 0.02)
 elastic_alpha = (0,0.5)
 elastic_sigma = 0.01
+sample = 128
 
-
-def coloring (digit,sample):
+def coloring (digit):
     image_name = '00'+ str(digit)+ '000'+".jpg"
     # Load and display
     image = imageio.imread(image_name)
@@ -88,7 +79,7 @@ def coloring (digit,sample):
 #    ia.imshow(ia.draw_grid(images_color_aug, cols=sample/8, rows=8))
     return images_color_aug
 
-def trans (images_color_aug, sample):
+def trans (images_color_aug):
     #ia.seed(1)
     seq = iaa.Sequential([iaa.Resize({"height": resize_height , "width": resize_width }),
                           iaa.Affine(translate_percent={"x": affine_translate_x, "y": affine_translate_y}),
@@ -103,7 +94,7 @@ def trans (images_color_aug, sample):
     return images_trans_aug
 
 
-def distortion (images_trans_aug, sample):
+def distortion (images_trans_aug):
     #ia.seed(1)
     seq = iaa.Sequential([#   iaa.Superpixels(p_replace=superpixel_p, n_segments=superpixel_n),
                           iaa.GaussianBlur(sigma=gau_blur_size),
@@ -143,7 +134,7 @@ def create_dir():
 
 
 
-def save (images_aug, digit,sample):
+def save (images_aug, digit):
     path = './'
     # load images to directory
     for i in range (sample):
@@ -158,14 +149,10 @@ def save (images_aug, digit,sample):
         # resize before save
         images_aug[i] = cv.resize(images_aug[i], (300,400), interpolation=cv.INTER_CUBIC)
         cv.imwrite(os.path.join(path, filename), images_aug[i])
-        if ( i+1 == sample) :
-          print("Successfully generate", sample, "images for original image", str(digit))
+
 
 
 if __name__=='__main__':
-    args = parse_args()
-    sample = args.sample
-    
     create_dir()
     os.chdir("./../")
     
@@ -176,9 +163,11 @@ if __name__=='__main__':
 
     os.chdir(des_dir)
     for i in range (10):
-        augmentation = distortion(trans(coloring(i, sample), sample),sample)
-        save(augmentation, i, sample)
+        augmentation = distortion(trans(coloring(i)))
+        save(augmentation, i)
 
     # check if successful generate:
     number_of_files = len([item for item in os.listdir("./") if os.path.isfile(os.path.join("./",item))])
-    print (number_of_files, "files in", des_dir)
+    if number_of_files != (sample * 10 + 10 + 1) :
+        print ("Error occurs in image augmentation, please double check!")
+    print (number_of_files-1, "files in", des_dir)

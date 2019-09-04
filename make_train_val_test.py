@@ -7,11 +7,12 @@ __author__ = 'Zhuzhen Li'
 
 import os
 import random
+import shutil
 
 def _main():
     trainval_percent = 0.1
-    train_percent = 0.9
-    xmlfilepath = './VOC2007/Annotations'
+    train_percent = 0.8
+    xmlfilepath = './VOC2019/Annotations'
     total_xml = os.listdir(xmlfilepath)
 
     num = len(total_xml)
@@ -21,10 +22,10 @@ def _main():
     trainval = random.sample(list, tv)
     train = random.sample(trainval, tr)
 
-    ftrainval = open('./VOC2007/ImageSets/Main/trainval.txt', 'w')
-    ftest = open('./VOC2007/ImageSets/Main/test.txt', 'w')
-    ftrain = open('./VOC2007/ImageSets/Main/train.txt', 'w')
-    fval = open('./VOC2007/ImageSets/Main/val.txt', 'w')
+    ftrainval = open('./VOC2019/ImageSets/Main/trainval.txt', 'w')
+    ftest = open('./VOC2019/ImageSets/Main/test.txt', 'w')
+    ftrain = open('./VOC2019/ImageSets/Main/train.txt', 'w')
+    fval = open('./VOC2019/ImageSets/Main/val.txt', 'w')
 
     for i in list:
         name = total_xml[i][:-4] + '\n'
@@ -43,5 +44,28 @@ def _main():
     ftest.close()
 
 
+def create_dir(directory, folder_name):
+    current_path = os.getcwd()
+    os.chdir(current_path+directory)
+    os.getcwd()
+    
+    # Create directory
+    dirName = folder_name
+    
+    try:
+        # Create target Directory
+        os.mkdir(dirName)
+        print("Directory" , dirName ,  " Successfully Created ")
+    
+    except FileExistsError:
+        #filesToRemove = [os.path.join(dirName, f) for f in os.listdir(dirName)]
+        #for f in filesToRemove :
+        #    os.remove(f)
+        shutil.rmtree(dirName)
+        print("Directory" , dirName ,  "already exists, empty the existing directory.")
+
+
 if __name__ == '__main__':
     _main()
+    
+    

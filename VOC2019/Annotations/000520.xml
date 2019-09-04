@@ -1,0 +1,78 @@
+<annotation>
+  <filename>000520.jpg</filename>
+  <size>
+    <width>299</width>
+    <height>76</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17.55</xmin>
+      <ymin>20.0</ymin>
+      <xmax>54.55</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>55.6</xmin>
+      <ymin>20.0</ymin>
+      <xmax>92.6</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>93.65</xmin>
+      <ymin>20.0</ymin>
+      <xmax>130.65</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>131.7</xmin>
+      <ymin>20.0</ymin>
+      <xmax>168.7</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>169.75</xmin>
+      <ymin>20.0</ymin>
+      <xmax>206.75</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>207.8</xmin>
+      <ymin>20.0</ymin>
+      <xmax>244.8</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>245.85</xmin>
+      <ymin>20.0</ymin>
+      <xmax>282.85</xmax>
+      <ymax>56.0</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,38 @@
+<annotation>
+  <filename>007472.jpg</filename>
+  <size>
+    <width>90</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>21.846387537916577</ymin>
+      <xmax>34.95</xmax>
+      <ymax>44.67182116424635</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>36.0</xmin>
+      <ymin>20.657039660579237</ymin>
+      <xmax>52.0</xmax>
+      <ymax>43.48247328690901</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>53.05</xmin>
+      <ymin>19.467691783241904</ymin>
+      <xmax>69.05</xmax>
+      <ymax>42.29312540957167</ymax>
+    </bndbox>
+  </object>
+</annotation>

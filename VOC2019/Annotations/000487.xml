@@ -1,0 +1,18 @@
+<annotation>
+  <filename>000487.jpg</filename>
+  <size>
+    <width>54</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.65</xmin>
+      <ymin>20.68625833209434</ymin>
+      <xmax>33.65</xmax>
+      <ymax>43.37475068782902</ymax>
+    </bndbox>
+  </object>
+</annotation>

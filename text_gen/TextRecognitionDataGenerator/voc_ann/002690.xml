@@ -1,0 +1,28 @@
+<annotation>
+  <filename>002690.jpg</filename>
+  <size>
+    <width>65</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.3</xmin>
+      <ymin>19.325610960538256</ymin>
+      <xmax>31.3</xmax>
+      <ymax>43.920751269563354</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>32.35</xmin>
+      <ymin>20.00859518950867</ymin>
+      <xmax>44.35</xmax>
+      <ymax>44.60373549853377</ymax>
+    </bndbox>
+  </object>
+</annotation>

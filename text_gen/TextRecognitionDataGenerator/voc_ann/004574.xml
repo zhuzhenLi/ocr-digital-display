@@ -1,0 +1,48 @@
+<annotation>
+  <filename>004574.jpg</filename>
+  <size>
+    <width>167</width>
+    <height>73</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.6</xmin>
+      <ymin>20.0</ymin>
+      <xmax>49.6</xmax>
+      <ymax>53.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>50.65</xmin>
+      <ymin>20.0</ymin>
+      <xmax>81.65</xmax>
+      <ymax>53.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>82.7</xmin>
+      <ymin>20.0</ymin>
+      <xmax>113.7</xmax>
+      <ymax>53.0</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>114.75</xmin>
+      <ymin>20.0</ymin>
+      <xmax>145.75</xmax>
+      <ymax>53.0</ymax>
+    </bndbox>
+  </object>
+</annotation>

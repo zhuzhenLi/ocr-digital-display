@@ -1,0 +1,48 @@
+<annotation>
+  <filename>003962.jpg</filename>
+  <size>
+    <width>95</width>
+    <height>60</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.6</xmin>
+      <ymin>19.497148502398595</ymin>
+      <xmax>31.6</xmax>
+      <ymax>39.7209836892111</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>32.65</xmin>
+      <ymin>19.74235481284243</ymin>
+      <xmax>45.65</xmax>
+      <ymax>39.96618999965494</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>46.7</xmin>
+      <ymin>19.987561123286262</ymin>
+      <xmax>59.7</xmax>
+      <ymax>40.21139631009877</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>60.75</xmin>
+      <ymin>20.232767433730096</ymin>
+      <xmax>73.75</xmax>
+      <ymax>40.456602620542604</ymax>
+    </bndbox>
+  </object>
+</annotation>

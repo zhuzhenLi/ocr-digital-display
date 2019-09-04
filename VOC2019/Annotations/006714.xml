@@ -1,0 +1,88 @@
+<annotation>
+  <filename>006714.jpg</filename>
+  <size>
+    <width>300</width>
+    <height>76</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17.2</xmin>
+      <ymin>22.320421062056205</ymin>
+      <xmax>49.2</xmax>
+      <ymax>57.75646108169322</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>50.25</xmin>
+      <ymin>21.743619029303986</ymin>
+      <xmax>82.25</xmax>
+      <ymax>57.179659048941005</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>83.3</xmin>
+      <ymin>21.166816996551766</ymin>
+      <xmax>115.3</xmax>
+      <ymax>56.60285701618878</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>116.35</xmin>
+      <ymin>20.590014963799547</ymin>
+      <xmax>148.35</xmax>
+      <ymax>56.026054983436566</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>149.4</xmin>
+      <ymin>20.013212931047327</ymin>
+      <xmax>181.4</xmax>
+      <ymax>55.44925295068434</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>182.45</xmin>
+      <ymin>19.436410898295104</ymin>
+      <xmax>214.45</xmax>
+      <ymax>54.87245091793212</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>215.5</xmin>
+      <ymin>18.859608865542885</ymin>
+      <xmax>247.5</xmax>
+      <ymax>54.2956488851799</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>248.55</xmin>
+      <ymin>18.282806832790666</ymin>
+      <xmax>280.55</xmax>
+      <ymax>53.71884685242768</ymax>
+    </bndbox>
+  </object>
+</annotation>

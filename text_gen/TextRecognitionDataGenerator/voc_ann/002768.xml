@@ -1,0 +1,38 @@
+<annotation>
+  <filename>002768.jpg</filename>
+  <size>
+    <width>104</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>21.750260332510685</ymin>
+      <xmax>39.95</xmax>
+      <ymax>50.61009129404608</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>41.0</xmin>
+      <ymin>20.596252497353774</ymin>
+      <xmax>62.0</xmax>
+      <ymax>49.45608345888917</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>63.05</xmin>
+      <ymin>19.442244662196863</ymin>
+      <xmax>84.05</xmax>
+      <ymax>48.30207562373226</ymax>
+    </bndbox>
+  </object>
+</annotation>

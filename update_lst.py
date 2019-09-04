@@ -1,5 +1,5 @@
-jpg_path = "./../Images/"
-xml_path = "./../Images/"
+jpg_path = "./train/"
+xml_path = "./train/"
 
 import os
 import xml.etree.ElementTree as ET
@@ -40,12 +40,12 @@ def get_lst_line(line):
     label = idx + "\t" + "2\t6\t" + str(position[0])+"\t" +str(position[1])+"\t" +str(position[2])+"\t"+str(position[3])+"\t"+str(position[4])+"\t" + "0.0000"+"\t" + filename +"\n"
     return label
 
-with open("data_val.lst") as f:
+with open("data_train.lst") as f:
     while 1:
         line = f.readline()
         if not line:
             break
         label = get_lst_line(line)
-        with open("val.lst", "a") as lst:
+        with open("train.lst", "a") as lst:
             lst.write(label)
 

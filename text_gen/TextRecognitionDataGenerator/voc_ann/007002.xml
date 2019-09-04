@@ -1,0 +1,88 @@
+<annotation>
+  <filename>007002.jpg</filename>
+  <size>
+    <width>233</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17.2</xmin>
+      <ymin>16.543617572155217</ymin>
+      <xmax>41.2</xmax>
+      <ymax>47.362930303588115</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>42.25</xmin>
+      <ymin>17.417849964552865</ymin>
+      <xmax>66.25</xmax>
+      <ymax>48.23716269598576</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>67.3</xmin>
+      <ymin>18.292082356950516</ymin>
+      <xmax>91.3</xmax>
+      <ymax>49.11139508838341</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>92.35</xmin>
+      <ymin>19.166314749348164</ymin>
+      <xmax>116.35</xmax>
+      <ymax>49.98562748078106</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>117.4</xmin>
+      <ymin>20.04054714174581</ymin>
+      <xmax>141.4</xmax>
+      <ymax>50.85985987317871</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>142.45</xmin>
+      <ymin>20.914779534143463</ymin>
+      <xmax>166.45</xmax>
+      <ymax>51.734092265576365</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>167.5</xmin>
+      <ymin>21.789011926541114</ymin>
+      <xmax>191.5</xmax>
+      <ymax>52.60832465797401</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>192.55</xmin>
+      <ymin>22.663244318938762</ymin>
+      <xmax>216.55</xmax>
+      <ymax>53.48255705037166</ymax>
+    </bndbox>
+  </object>
+</annotation>

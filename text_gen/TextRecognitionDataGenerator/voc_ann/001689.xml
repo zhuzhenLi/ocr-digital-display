@@ -1,0 +1,58 @@
+<annotation>
+  <filename>001689.jpg</filename>
+  <size>
+    <width>179</width>
+    <height>73</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.25</xmin>
+      <ymin>17.523462214131726</ymin>
+      <xmax>45.25</xmax>
+      <ymax>51.44564591672941</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>46.3</xmin>
+      <ymin>18.50239309663688</ymin>
+      <xmax>73.3</xmax>
+      <ymax>52.424576799234565</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>74.35</xmin>
+      <ymin>19.48132397914203</ymin>
+      <xmax>101.35</xmax>
+      <ymax>53.40350768173971</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>102.4</xmin>
+      <ymin>20.460254861647183</ymin>
+      <xmax>129.4</xmax>
+      <ymax>54.382438564244865</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>130.45</xmin>
+      <ymin>21.439185744152333</ymin>
+      <xmax>157.45</xmax>
+      <ymax>55.36136944675002</ymax>
+    </bndbox>
+  </object>
+</annotation>

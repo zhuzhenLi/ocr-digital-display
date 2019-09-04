@@ -1,0 +1,48 @@
+<annotation>
+  <filename>001102.jpg</filename>
+  <size>
+    <width>127</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.6</xmin>
+      <ymin>18.44215019277127</ymin>
+      <xmax>39.6</xmax>
+      <ymax>49.156764434096665</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>40.65</xmin>
+      <ymin>19.211684095061415</ymin>
+      <xmax>61.65</xmax>
+      <ymax>49.92629833638681</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>62.7</xmin>
+      <ymin>19.981217997351564</ymin>
+      <xmax>83.7</xmax>
+      <ymax>50.69583223867696</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>84.75</xmin>
+      <ymin>20.750751899641706</ymin>
+      <xmax>105.75</xmax>
+      <ymax>51.465366140967106</ymax>
+    </bndbox>
+  </object>
+</annotation>

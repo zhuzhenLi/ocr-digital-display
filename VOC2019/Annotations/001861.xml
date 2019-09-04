@@ -1,0 +1,28 @@
+<annotation>
+  <filename>001861.jpg</filename>
+  <size>
+    <width>86</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.3</xmin>
+      <ymin>21.260919141639164</ymin>
+      <xmax>42.3</xmax>
+      <ymax>50.01607819068867</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>43.35</xmin>
+      <ymin>20.002239393996362</ymin>
+      <xmax>66.35</xmax>
+      <ymax>48.75739844304587</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,88 @@
+<annotation>
+  <filename>003633.jpg</filename>
+  <size>
+    <width>208</width>
+    <height>76</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17.2</xmin>
+      <ymin>13.988985174333088</ymin>
+      <xmax>37.2</xmax>
+      <ymax>51.296420458569266</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>38.25</xmin>
+      <ymin>15.457358946646927</ymin>
+      <xmax>58.25</xmax>
+      <ymax>52.7647942308831</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>59.3</xmin>
+      <ymin>16.925732718960766</ymin>
+      <xmax>79.3</xmax>
+      <ymax>54.23316800319694</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>80.35</xmin>
+      <ymin>18.394106491274602</ymin>
+      <xmax>100.35</xmax>
+      <ymax>55.701541775510776</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>101.4</xmin>
+      <ymin>19.86248026358844</ymin>
+      <xmax>121.4</xmax>
+      <ymax>57.169915547824615</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>122.45</xmin>
+      <ymin>21.330854035902277</ymin>
+      <xmax>142.45</xmax>
+      <ymax>58.638289320138455</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>143.5</xmin>
+      <ymin>22.799227808216116</ymin>
+      <xmax>163.5</xmax>
+      <ymax>60.106663092452294</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>164.55</xmin>
+      <ymin>24.267601580529956</ymin>
+      <xmax>184.55</xmax>
+      <ymax>61.575036864766126</ymax>
+    </bndbox>
+  </object>
+</annotation>

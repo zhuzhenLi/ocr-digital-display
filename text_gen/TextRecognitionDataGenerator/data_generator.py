@@ -169,7 +169,7 @@ class FakeTextDataGenerator(object):
 #                ry1 = (y1-y_center)*math.cos(angle) - (x11-x_center)*math.sin(angle) + y_center
 
                 # the rotated bounding box for each digit is (rx0,ry0,rx1,ry1)
-                txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
+#################################                txt_draw.rectangle((rx0,ry0,rx1,ry1), fill=None, outline=None, width=1)
                 # print("the rotated bounding box for each digit is ", rx0,ry0,rx1,ry1)
 
                 file = open("bb_result.txt","a+")

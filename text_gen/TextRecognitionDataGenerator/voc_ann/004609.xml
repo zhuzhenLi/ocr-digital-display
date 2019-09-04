@@ -1,0 +1,38 @@
+<annotation>
+  <filename>004609.jpg</filename>
+  <size>
+    <width>112</width>
+    <height>76</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>23.297615703149315</ymin>
+      <xmax>42.95</xmax>
+      <ymax>57.068887008508355</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>44.0</xmin>
+      <ymin>21.11436434732048</ymin>
+      <xmax>68.0</xmax>
+      <ymax>54.885635652679525</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>69.05</xmin>
+      <ymin>18.93111299149164</ymin>
+      <xmax>93.05</xmax>
+      <ymax>52.70238429685068</ymax>
+    </bndbox>
+  </object>
+</annotation>

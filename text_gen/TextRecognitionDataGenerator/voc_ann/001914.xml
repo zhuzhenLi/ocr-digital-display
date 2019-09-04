@@ -1,0 +1,38 @@
+<annotation>
+  <filename>001914.jpg</filename>
+  <size>
+    <width>106</width>
+    <height>73</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>17.095134440928437</ymin>
+      <xmax>39.95</xmax>
+      <ymax>51.799830075656864</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>41.0</xmin>
+      <ymin>19.0169185685143</ymin>
+      <xmax>62.0</xmax>
+      <ymax>53.72161420324272</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>63.05</xmin>
+      <ymin>20.93870269610016</ymin>
+      <xmax>84.05</xmax>
+      <ymax>55.64339833082859</ymax>
+    </bndbox>
+  </object>
+</annotation>

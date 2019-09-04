@@ -1,0 +1,38 @@
+<annotation>
+  <filename>007491.jpg</filename>
+  <size>
+    <width>93</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>18.114748394451983</ymin>
+      <xmax>35.95</xmax>
+      <ymax>49.22752995589684</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>37.0</xmin>
+      <ymin>19.373852745533448</ymin>
+      <xmax>54.0</xmax>
+      <ymax>50.4866343069783</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>55.05</xmin>
+      <ymin>20.63295709661491</ymin>
+      <xmax>72.05</xmax>
+      <ymax>51.745738658059764</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,28 @@
+<annotation>
+  <filename>002019.jpg</filename>
+  <size>
+    <width>75</width>
+    <height>67</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.3</xmin>
+      <ymin>20.971015684434832</ymin>
+      <xmax>36.3</xmax>
+      <ymax>47.04430186667828</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>37.35</xmin>
+      <ymin>20.026351674249696</ymin>
+      <xmax>54.35</xmax>
+      <ymax>46.099637856493146</ymax>
+    </bndbox>
+  </object>
+</annotation>

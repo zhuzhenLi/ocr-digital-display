@@ -1,0 +1,38 @@
+<annotation>
+  <filename>001464.jpg</filename>
+  <size>
+    <width>77</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>18.99327763839556</ymin>
+      <xmax>30.95</xmax>
+      <ymax>43.58841794742066</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>five</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>32.0</xmin>
+      <ymin>19.67626186736598</ymin>
+      <xmax>44.0</xmax>
+      <ymax>44.27140217639108</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>45.05</xmin>
+      <ymin>20.359246096336395</ymin>
+      <xmax>57.05</xmax>
+      <ymax>44.9543864053615</ymax>
+    </bndbox>
+  </object>
+</annotation>

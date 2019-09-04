@@ -1,0 +1,88 @@
+<annotation>
+  <filename>005819.jpg</filename>
+  <size>
+    <width>168</width>
+    <height>70</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17.2</xmin>
+      <ymin>14.235075913080252</ymin>
+      <xmax>32.2</xmax>
+      <ymax>45.428252997047494</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>33.25</xmin>
+      <ymin>15.633925584180165</ymin>
+      <xmax>48.25</xmax>
+      <ymax>46.827102668147404</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>49.3</xmin>
+      <ymin>17.03277525528008</ymin>
+      <xmax>64.3</xmax>
+      <ymax>48.225952339247314</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>65.35</xmin>
+      <ymin>18.431624926379993</ymin>
+      <xmax>80.35</xmax>
+      <ymax>49.62480201034723</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>81.4</xmin>
+      <ymin>19.830474597479906</ymin>
+      <xmax>96.4</xmax>
+      <ymax>51.02365168144715</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>97.45</xmin>
+      <ymin>21.22932426857982</ymin>
+      <xmax>112.45</xmax>
+      <ymax>52.42250135254706</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>113.5</xmin>
+      <ymin>22.628173939679733</ymin>
+      <xmax>128.5</xmax>
+      <ymax>53.82135102364697</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>129.55</xmin>
+      <ymin>24.027023610779647</ymin>
+      <xmax>144.55</xmax>
+      <ymax>55.220200694746886</ymax>
+    </bndbox>
+  </object>
+</annotation>

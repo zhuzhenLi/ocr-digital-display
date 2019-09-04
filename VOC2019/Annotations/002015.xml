@@ -1,0 +1,38 @@
+<annotation>
+  <filename>002015.jpg</filename>
+  <size>
+    <width>89</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>18.6792619009379</ymin>
+      <xmax>34.95</xmax>
+      <ymax>43.483746034934775</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>36.0</xmin>
+      <ymin>19.57158995488009</ymin>
+      <xmax>52.0</xmax>
+      <ymax>44.37607408887696</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>53.05</xmin>
+      <ymin>20.463918008822283</ymin>
+      <xmax>69.05</xmax>
+      <ymax>45.268402142819156</ymax>
+    </bndbox>
+  </object>
+</annotation>

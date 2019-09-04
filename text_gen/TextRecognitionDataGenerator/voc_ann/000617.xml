@@ -1,0 +1,38 @@
+<annotation>
+  <filename>000617.jpg</filename>
+  <size>
+    <width>52</width>
+    <height>48</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>18.95</xmin>
+      <ymin>20.62966919400401</ymin>
+      <xmax>22.95</xmax>
+      <ymax>28.25060380774734</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>24.0</xmin>
+      <ymin>20.189532693128335</ymin>
+      <xmax>28.0</xmax>
+      <ymax>27.810467306871665</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>six</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>29.05</xmin>
+      <ymin>19.74939619225266</ymin>
+      <xmax>33.05</xmax>
+      <ymax>27.37033080599599</ymax>
+    </bndbox>
+  </object>
+</annotation>
