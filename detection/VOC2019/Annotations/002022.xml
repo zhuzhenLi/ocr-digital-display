@@ -1,0 +1,28 @@
+<annotation>
+  <filename>002022.jpg</filename>
+  <size>
+    <width>70</width>
+    <height>67</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>nine</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.3</xmin>
+      <ymin>20.276058896454067</ymin>
+      <xmax>34.3</xmax>
+      <ymax>47.01016056911738</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>one</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>35.35</xmin>
+      <ymin>19.99594777313567</ymin>
+      <xmax>50.35</xmax>
+      <ymax>46.73004944579898</ymax>
+    </bndbox>
+  </object>
+</annotation>

@@ -1,0 +1,88 @@
+<annotation>
+  <filename>007403.jpg</filename>
+  <size>
+    <width>184</width>
+    <height>64</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>17.2</xmin>
+      <ymin>21.30726765963211</ymin>
+      <xmax>35.2</xmax>
+      <ymax>44.9894690275144</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>36.25</xmin>
+      <ymin>20.97479931700186</ymin>
+      <xmax>54.25</xmax>
+      <ymax>44.65700068488415</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>55.3</xmin>
+      <ymin>20.64233097437161</ymin>
+      <xmax>73.3</xmax>
+      <ymax>44.324532342253896</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>two</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>74.35</xmin>
+      <ymin>20.30986263174136</ymin>
+      <xmax>92.35</xmax>
+      <ymax>43.992063999623646</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>three</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>93.4</xmin>
+      <ymin>19.977394289111107</ymin>
+      <xmax>111.4</xmax>
+      <ymax>43.659595656993396</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>zero</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>112.45</xmin>
+      <ymin>19.644925946480853</ymin>
+      <xmax>130.45</xmax>
+      <ymax>43.327127314363146</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>131.5</xmin>
+      <ymin>19.312457603850604</ymin>
+      <xmax>149.5</xmax>
+      <ymax>42.994658971732896</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>eight</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>150.55</xmin>
+      <ymin>18.979989261220354</ymin>
+      <xmax>168.55</xmax>
+      <ymax>42.66219062910264</ymax>
+    </bndbox>
+  </object>
+</annotation>

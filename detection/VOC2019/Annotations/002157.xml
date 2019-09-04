@@ -1,0 +1,28 @@
+<annotation>
+  <filename>002157.jpg</filename>
+  <size>
+    <width>63</width>
+    <height>57</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>four</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>19.3</xmin>
+      <ymin>19.579404110567175</ymin>
+      <xmax>30.3</xmax>
+      <ymax>36.952942633619315</ymax>
+    </bndbox>
+  </object>
+<object>
+    <name>seven</name>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>31.35</xmin>
+      <ymin>19.99994304583231</ymin>
+      <xmax>42.35</xmax>
+      <ymax>37.37348156888445</ymax>
+    </bndbox>
+  </object>
+</annotation>
